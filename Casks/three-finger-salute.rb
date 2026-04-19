@@ -15,13 +15,7 @@ args: ["-rd", "com.apple.quarantine", "#{appdir}/Three Finger Salute.app"],
 sudo: false
 end
 
-zap trash: [
-"~/Library/Application Support/Three Finger Salute",
-"~/Library/Preferences/Axolotl-Industries.Three-Finger-Salute.plist",
+zap trash: ["~/Library/Application Support/Three Finger Salute", "~/Library/Preferences/Axolotl-Industries.Three-Finger-Salute.plist"]
 
-
-caveats <<~EOS
-If you experience issues opening the app, right-click 'Three Finger Salute' 
-in your Applications folder and select 'Open'.
-EOS
+caveats "If you experience issues opening the app, right-click 'Three Finger Salute' in your Applications folder and select 'Open'."
 end
