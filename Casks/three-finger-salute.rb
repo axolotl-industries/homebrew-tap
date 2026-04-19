@@ -1,8 +1,8 @@
 cask "three-finger-salute" do
-  version "1.0.0"
-  sha256 "e3d4f16014ced372d988924909337111e5daf02f13305365a0258ca1a057aacd"
+  version "1.0.1"
+  sha256 "f71b039965c8602d6f7d8040a27cbafca485f541013683819378def01dced5f2"
 
-  url "https://github.com/axolotl-industries/three-finger-salute/releases/download/v1.0.0/ThreeFingerSalute.zip"
+  url "https://github.com/axolotl-industries/three-finger-salute/releases/download/v1.0.1/ThreeFingerSalute.zip"
   name "Three Finger Salute"
   desc "Trackpad gestures for volume control and middle-click"
   homepage "https://ko-fi.com/axolotlindustries"
